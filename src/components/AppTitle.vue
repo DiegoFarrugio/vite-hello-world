@@ -14,6 +14,7 @@ export default {
         <h1>
             {{ title }}
         </h1>
+
     </header>
 </template>
 
@@ -25,8 +26,5 @@ h1 {
     color: white;
     padding: 5px;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 </style>
