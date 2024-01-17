@@ -1,11 +1,32 @@
-<script setup>
-
+<script>
+export default {
+    data() {
+        return {
+            title: 'La mia prima app con Vite!'
+        }
+    },
+}
 </script>
 
 
+<template>
+    <header>
+        <h1>
+            {{ title }}
+        </h1>
+    </header>
+</template>
 
-<template></template>
 
-
-
-<style scoped></style>
+<style scoped>
+h1 {
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
